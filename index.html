@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: "#FECC02",
+                        offBlack: "#131313",
+                        gray: "#4E4E4E",
+                    },
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "cursive"],
+                        roboto: ["Roboto", "sans-serif"],
+                    },
+                    backgroundImage: {
+                        'bg1': "url('./image/background ing.jpg')",
+                    }
+                },
+            },
+        };
+    </script>
+    <title>Wedding Planners</title>
+</head>
+
+<body>
+    <!-- Nav Part Start -->
+    <nav>
+        <h1 class="text-3xl md:text-4xl lg:text-5xl text-center text-gray font-bebas mt-5 mb-5 ">BD Event Management &
+            Wedding Planners
+        </h1>
+    </nav>
+    <!-- Nav Part End -->
+    <!-- Main Part Start -->
+    <main>
+        <section class="bg-bg1 h-screen bg-cover mb-32">
+            <div class="pt-72">
+                <h1 class="text-white text-4xl font-bold pl-10 pb-10">NEW ERA OF <span class="text-yellow">EVENT MANAGEMENT</span></h1>
+                <p class="text-white text-lg font-semibold pl-10">Creative Wedding Planner & Event Management established <br> a new era in wedding
+                    planning and event
+                    management service in Bangladesh with quality and excellence.</p>
+            </div>
+        </section>
+    </main>
+    <!-- Main Part end -->
+    <!-- card Part Start -->
+    <section class="mb-10 md:flex justify-between px-32">
+        <div class="pt-32">
+            <h1 class="text-roboto text-4xl font-bold text-offBlack pb-4">Wedding Comes Once in a Lifetime</h1>
+            <h3 class="text-xl pb-10">Make it Memorable</h3>
+        </div>
+        <div>
+            <img src="./image/bride02.jpg" alt="">
+        </div>
+    </section>
+    <!-- card Part end -->
+    <!-- service part start -->
+    <section class="mb-28">
+        <h1 class="text-center text-orange-400 text-5xl font-bold my-14">OUR SERVICES</h1>
+        <div class="px-32 md:flex justify-evenly">
+            <div>
+                <img class=" h-48 w-72" src="./image/bride01.jpeg" alt="">
+                <h1 class=" text-xl py-6">Weeding Planning</h1>
+            </div>
+            <div>
+                <img class=" h-48 w-72" src="./image/card1.jpg" alt="">
+                <h1 class=" text-xl py-6">Corporate Event</h1>
+            </div>
+            <div>
+                <img class=" h-48 w-72" src="./image/card3.jpeg" alt="">
+                <h1 class=" text-xl py-6">Catering Service</h1>
+            </div>
+        </div>
+    </section>
+    <!-- service part End -->
+    <!-- wye me start -->
+    <section class="text-center mb-16">
+        <h1 class="text-bebas text-orange-400 text-4xl font-bold mb-5">WANT TO MAKE <br> YOUR DREAMED EVENT COME <br> ALIVE?</h1>
+        <p class="text-roboto text-xl text-gray mx-10">You are at the perfect place to make your dreamy event come alive. We at Creative Wedding  Planner & Event Management are the leading, the most creative and widely experienced event management company in Bangladesh. Customer satisfaction is the highest priority of our service. We care for the quality and standard of your event. Our professional experience, quality, creativity, honesty, sincerity and management system control ensure you a splendid wedding planning and event management which is unique throughout the country. Creative Wedding Planner & Event Management determined to offer the very best and one stop event solution and a beautiful event to remember. We give personalized attention to each client to ensure that every aspect of the event is finely tuned, stress free and enjoyable for all. We help you in organizing your different events with affordable prices. We, along with our expert team sit down and make decisions for the betterment of our clients and try to provide an excellent service according to the customer demands.</p>
+    </section>
+    <!-- wye me end -->
+    <!-- contact part start -->
+    <section>
+        <h1 class="text-bebas text-5xl font-bold text-orange-400 text-center">Contact Us</h1>
+        <h2 class="text-center text-2xl py-8 font-bold">Mobile : 01345-67890</h2>
+        <h2 class="text-center text-2xl pb-8 font-bold">Email : weddingplan@gmail.com</h2>
+    </section>
+    <!-- contact part end -->
+</body>
+<!-- footer part start -->
+<footer class="bg-gray h-52 mt-36">
+    <h1 class="text-center text-white p-20">© 2021 Creative Wedding Planner & Event Management. All Rights Reserved.</h1>
+</footer>
+<!-- footer part end -->
+</html>
